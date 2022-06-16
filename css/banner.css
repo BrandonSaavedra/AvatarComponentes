@@ -1,0 +1,126 @@
+.distri_fondo{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("../img/fondo\ old\ friends.jpg") ;
+}
+
+.sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    margin: auto;
+}
+
+.sombra hr{
+
+    border-top: 1px solid #ffff;
+
+}
+
+.sombra h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.sombra p {
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
+
+.contenedor_de_link{
+    margin: 15px;
+    position: relative;
+
+}
+
+.contenedor_de_link a{
+    position: relative;
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #ffff ;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+
+}
+
+
+.contenedor_de_link a:hover{
+
+    background-color: rgb(2, 56, 34);
+    color: rgb(255, 127, 127);
+}
+
+.banner_link {
+    opacity: 0;
+    animation: Aparecer_de_arriba 1s;
+    -webkit-animation: Aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner_link_1{
+    opacity: 0;
+    animation: Aparecer_de_arriba 1s;
+    -webkit-animation: Aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.banner_link_2{
+    opacity: 0;
+    animation: Aparecer_de_arriba 1s;
+    -webkit-animation: Aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.banner_link_3{
+    opacity: 0;
+    animation: Aparecer_de_arriba 1s;
+    -webkit-animation: Aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.banner_seccion_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/fondo\ old\ friends.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+} 
+
+.banner_seccion_3 .row {
+    background-color:rgba(1, 1, 1, 0.7);
+    color: #ffff;
+    padding: 2%;
+
+}
+
+.contenedor_de_imagen {
+    padding: 5%;
+}
+
+
+
+
+
+
+

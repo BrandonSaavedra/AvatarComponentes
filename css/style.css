@@ -1,0 +1,43 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+     font-family: 'Cormorant Garamond', serif;      /*estilo letra */
+}
+
+.Brandon_navbar{
+    background-color: rgba(255, 255 , 255, 0.7) !important;
+
+}
+
+.Brandon_navbar div,  .Brandon_navbar ul{
+    background-color: transparent !important;
+}
+
+.contenedor_seccion_1{
+    padding: 10%;
+}
+
+.contenedor_seccion_1_link{
+
+    padding: 5%;
+}
+
+.contenedor_seccion_1_link a{
+    width: 200px;
+}
+
+.contenedor_seccion_1 hr{
+    border-top:  1px solid rgba(1, 1, 1, 0.3)
+}
+
+.contenedor_footer {
+    background-color: rgba(1, 1, 1, 0.8);
+    padding: 10%;
+    color: red;
+    margin-top: 100px;
+    text-decoration: none;
+}
